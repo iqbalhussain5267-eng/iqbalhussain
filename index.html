@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+type="module"
+src="https://cdn.jsdelivr.net/npm/@mariohamann/activity-graph/dist/activity-graph.min.js"
+></script>
+<title>my protfilio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!---navbar starting point-->
+<body class="">
+    <div class="container">
+        <!---navbar-->
+        <nav class="navbar">
+           <!--- <div  class="box theme">
+            </div>-->
+            <div class="item " onclick="theme()">
+              <i id="lightbtn" class="fa-solid fa-sun"></i>
+              <i id="darkbtn" class="fa-solid fa-moon" style="display: none;"></i>
+              </div>
+
+              <div class="box nav">
+                <div class="item active">
+                    <a href="#about">
+                        <i class="fa-regular fa-user"></i>
+                        <p>about</p>
+                    </a>
+                    <div class="divider rtl"></div>
+                </div>
+
+                <div class="item active">
+                    <a href="#resume">
+                    <i class="fa-solid fa-file-contract"></i>
+                        <p>resume</p>
+                    </a>
+                    <div class="divider ltr"></div>
+                </div>
+                
+                <div class="item active">
+                    <a href="#projects">
+                        <i class="fa-solid fa-layer-group"></i>
+                        <p>Gallery</p>
+                    </a>
+                    <div class="divider ltr"></div>
+                </div>
+
+                <div class="item">
+                    <a href="#blogs">
+                        <i class="fa-solid fa-book-open-reader"></i>
+                        <p>blogs</p>
+                    </a>
+                    <div class="divider ltr"></div>
+                </div>
+
+                <div class="item">
+                    <a href="#contact">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <p>contact</p>
+                    </a>
+                    </div>
+            </div>
+            </nav>
+<div>
+
+    <!---profile-->
+            <div class="box profile">
+                <img class="header" src="mypohoto.png" alt="myphoto"></div>                
+                <img class= "header-2"src="myphoto.jpeg" alt="">
+                <h2>Iqbal Hussain</h2>
+                <p id="typed" class="colored">fronted web developer</p>
+
+                <ul>
+                    <li class="li"><a href="#">
+                        <i class="fa-brands fa-github"></i>
+                    </a></li>
+                    <li class="li"><a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a></li>
+                    <li class="li"><a href="#">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a></li>
+                    <li class="li"><a href="#">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a></li>
+                </ul>
+
+
+                <div class="footer">
+                    <div class="divider rtl"></div>
+                    <table>
+                        <tr>
+                            <td><a class="myresume" href="#">My resume
+                                <i  class="fa-solid fa-file"></i>
+                            </a></td>
+                            <td><a  class="contact"  href="#">contact
+                                <i  class="fa-solid fa-phone"></i>
+                            </a></td>
+                        </tr>
+                    </table>
+                </div>
+                </div>
+                
+
+
+                <!----body content-->
+           <div class="box  content">
+            <div class="wrapper">
+            <h2 id="about"> Hey <span class="colored">There!</span></h2>
+            <div class="divider ltr">
+             <p class="para-in-content">Hi, I’m iqbar Hussain — a passionate <span class="colored">Web Developer</span> with a strong focus on <span class="colored">Front-End Development</span>. I specialize in creating clean, responsive, and user-friendly interfaces using <span class="colored"> HTML, CSS, JavaScript, and React</span>. With a solid foundation in Python and additional skills in video editing, I bring creativity and technical expertise together to deliver engaging digital experiences.Beyond development, I am also well-versed in <span class="colored">Cybersecurity</span> , ensuring the projects I work on are not only visually appealing but also secure and reliable. My goal is to build modern, efficient, and safe web solutions that</p>
+                <!---achievments-->
+                <section class="achivements">
+                    <div>
+                        <h3><i class="fa-solid fa-layer-group"></i>2k+</h3>
+                        <p>website designed</p>
+                    </div>
+                     <div>
+                        <h3><i class="fa-solid fa-briefcase"></i>5+</h3>
+                        <p>years of experience</p>
+                    </div> <div>
+                        <h3><i class="fa-solid fa-rocket"></i>4k</h3>
+                        <p>completed projetcs</p>
+                    </div>
+                </section>
+                <!---skills-->
+                <h2>MY <span class="colored">Skills</span></h2>
+            <div class="divider ltr">
+                <section class="skills">
+
+                    <div><i class="fa-brands fa-html5"></i><p>HTML5</p></div>
+                    <div><i class="fa-brands fa-css3"></i><p>CSS</p></div>
+                    <div><i class="fa-brands fa-react"></i><p>REACT</p></div>
+                    <div><i class="fa-brands fa-python"></i><p>PYTHON</p></div>
+                    <div>
+                        <div class="circle" style="--percent:65%">
+                            <h4>65 <small>%</small></h4>
+                         </div>
+                        <p>MY SQL</p>
+                </div>
+                <div>
+                    <div class="circle" style="--percent:50%">
+                            <h4>85 <small>%</small></h4>
+<p>javascript</p>
+                        </div>
+                        </div>
+                        
+                    
+                    <div>
+                        <div class="progrss-bar">
+                            <p>node js <span>90%</span></p>
+                            <progress max="100" value="90"></progress>
+                        </div>
+                         <div class="progrss-bar">
+                            <p>postgreSQL<span>70%</span></p>
+                            <progress max="100" value="70"></progress>
+                        </div>
+                    </div>
+                </section>
+                <!--- experience section-->
+                <h1 id="resume">
+                    
+                    MY <span class="colored">Experience</span></h1>
+    <div class="divider ltr"></div>
+    <section class="sxperience">
+        <div class="experience">
+            <h2>senior PYTHON developer </h2>
+            <h4> google inc. <span class="date">oct, 2023</span>&#x26AC;
+                 <span class="date">jun,2025</span></h4>
+           I am a passionate Python Developer skilled in creating powerful, scalable, and efficient applications. I specialize in web development, automation, data analysis, and scripting, using Python to build solutions that solve real-world problems. With a focus on clean and maintainable code, I ensure every project is reliable, user-friendly, and optimized for performance.
+        </div>
+          <div class="experience">
+            <h2>Cyber Security Enthusiast | Penetration Testing & Ethical Hacking </h2>
+            <h4> freshworks inc. <span class="date">oct, 2023</span>&#x26AC;
+                 <span class="date">jun,2025</span></h4>
+           <p>I am a dedicated Cyber Security Enthusiast with strong knowledge in protecting systems, networks, and applications from digital threats. My expertise includes penetration testing, vulnerability assessment, network security, and ethical hacking. I work with modern tools and techniques to identify risks, secure data, and ensure safe digital environments. With a passion for cybersecurity, I continuously learn and adapt to stay ahead of evolving cyber threats.</p>
+        </div>
+        <div class="experience">
+            <h2>Fronted  web developer</h2>
+            <h4> integrity software , ICC  <span class="date">oct, 2023</span>&#x26AC;
+                 <span class="date">jun,2025</span></h4>
+           <p>I am a passionate Front-End Web Developer with expertise in creating responsive, user-friendly, and visually appealing websites. I specialize in HTML, CSS, and JavaScript, along with other modern web technologies, to bring ideas to life on the web. From designing clean layouts to adding interactive features, I ensure every project is optimized for performance and a great user experience.</p>
+        </div>
+    </section>
+    <div>
+        <!---projects-->
+   <h1 id="projects">MY <span class="colored">Gallery</span></h1>
+   <div class="divider ltr"></div>
+   <section class="projects">
+
+    <div class="project-1">
+        <img src="project-1.jpg" alt="">
+        <h3>projects<span class="colored">title-1</span></h3>
+    </div>
+     <div class="project-2">
+        <img src="project-2.jpeg" alt="">
+        <h3>project <span class="colored">title-2</span></h3>
+    </div>
+     <div class="project-3">
+        <img src="project-3.jpeg" alt="">
+        <h3>project <span class="colored">title-3</span></h3>
+    </div>
+     <div class="project-4">
+        <img src="project-4.jpeg" alt="">
+        <h3>project <span class="colored">title-4</span></h3>
+    </div>
+     <div class="project-5">
+        <img src="project-5.jpeg" alt="">
+        <h3>project <span class="colored">title-5</span></h3>
+    </div>
+     <div class="project-6">
+        <img src="project-6.jpeg" alt="">
+        <h3>project <span class="colored">title-6</span></h3>
+    </div>
+   </section>
+
+   <!---blogs-->
+
+   
+   <h1 id="blogs">
+    MY <span class="colored">Blogs</span></h1>
+   <div class="divider ltr"></div>
+
+<secrion class="blogs">
+
+    <div class="blog-box">
+        <img class="img" src="cyber.webp" alt="">
+        <div>
+            <h3>🛡️ My Journey into Cybersecurity: From Curiosity to Practical Skills</h3>
+            <p>Cybersecurity has always been more than just a technical field for me—it is a passion that grew out of curiosity about how the digital world works. With the rapid rise of technology, I realized that protecting information and digital systems is one of the most important challenges of our time.
+
+My journey began with learning the basics of networking and operating systems</p>
+            <span class="link"> <a href="./cyber.html">readmore</a><i class="fa-solid fa-forward"></i></span>
+        
+</div>
+        <div class="blog-box">
+        <img  class="img" src="ai.jpeg" alt="">
+        <div>
+            <h3>🤖 Artificial Intelligence: Shaping the Future of Technology</h3>
+    <p>
+
+Artificial Intelligence (AI) is no longer just a concept from science fiction—it has become a powerful force transforming the way we live, work, and connect with the world. From voice assistants like Siri and Alexa to advanced self-driving cars, AI is everywhere around us, silently making our lives easier and more efficient.
+
+.</p>
+            <span class="link"><a href="./ai.html">Read more</a><i class="fa-solid fa-forward"></i></span>
+        </div>
+
+        <div class="blog-box">
+        <img  class="img" src="blockchain.jpeg" alt="">
+        <div>
+            <h3>🔗 Blockchain Technology: Building Trust in the Digital Era</h3>
+            <p>in today’s digital world, trust and transparency are more important than ever. Whether it’s online banking, supply chain management, or data security, people want systems they can rely on. This is where blockchain technology comes in—a revolutionary innovation that is reshaping industries around the globe.
+
+🌍
+            <span class="link"><a href="./blockchain.html">Read more</a><i class="fa-solid fa-forward"></i></span>
+        </div>
+
+        <div class="blog-box">
+        <img class="img" src="cloud.jpeg" alt="">
+        <div>
+            <h3>☁️ Cloud Computing: Powering the Digital World</h3>   
+       <p>In today’s fast-paced digital age, businesses and individuals need quick, secure, and flexible access to data. This is where cloud computing comes in. It has transformed the way we store information, run applications, and deliver services online.
+
+
+
+nesses running global operations to students accessing online learning, the cloud connects us all. As technology continues to evolve, cloud computing will remain at the center of innovation, driving growth and digital transformation worldwide.</p>
+            <span class="link"><a href="./cloud.html">Read more</a><i class="fa-solid fa-forward"></i></span>
+        </div>
+</div>
+</div>
+</secrion>
+    </div>
+    <!----testimonials-->
+    <div>
+<br><h2>MY <span class="colored">Testimonials</span></h2>
+<div class="divider ltr"></div>
+<section class="testimonials">
+    <div class="testimonial-box">
+        <h1>what <span class="colored">clients say about me?</span></h1>
+    </div>
+   <div class="testimonial-box">
+    <img src="guy-1.jpeg" height="">
+    <span>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+    </span>
+    <h3 class="colored">slish din</h3>web developer .
+    <p>I’m impressed by his cybersecurity expertise. He helped secure my website and guided me on best practices to stay safe online.</p>
+   </div>
+   <div class="testimonial-box">
+ <img src="guy-2.jpeg" height="">
+    <span>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+    </span>
+    <h3 class="colored">Dan grommes.</h3> manager at google inc.
+    <p>Great communication and excellent results! My project was completed ahead of schedule with clean, maintainable code..</p>
+   </div>
+
+   <div class="testimonial-box">
+     <img src="guy-3.jpeg" height="">
+    <span>
+        <i  class="fa-solid fa-star"></i>
+        <i  class="fa-solid fa-star"></i>
+        <i  class="fa-solid fa-star"></i>
+        <i  class="fa-solid fa-star"></i>
+        <i  class="fa-solid fa-star"></i>
+    </span>
+    <h3 class="colored">daud jii.</h3><h5>security analyst.
+    <p>His Python automation saved me hours of manual work. Iqbal is skilled, reliable, and understands client needs perfectly</p>
+</section>
+
+
+<!---testimonails completed-->
+
+
+<!----contact section-->
+
+
+
+<h1 id="contact">
+    contact <span class="colored">me</span></h1>
+<div class="divider ltr"></div>
+<section>
+    <div class="mapouter"><div class="gmap_canva"><iframe width="820" height="560" id="gmap_canvas" src="https://maps.google.com/maps?q=636+5th+Ave%2C+New+York&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://timenowin.net/">timer countdown</a><br><a href="https://www.alarm-clock.net">free alarm clock online</a><br><style>.mapouter{position: relative;text-align: right;height: 560px;width: 820px;}</style><a href="https://www.ongooglemaps.com">google maps embed iframe</a><style>.gmap_canvas{overflow: hidden;background: none !important;height: 560px;width: 820px;}</style></div></div>
+<form action="#" class="contact">
+    <div >
+<input type="text" class="input" name="firstname" placeholder="first name..">
+    </div>
+     <div >
+<input type="text" class="input" name="lastname" placeholder="last name..">
+    </div>
+     <div >
+<input type="email" class="input" name="email" placeholder="email..">
+    </div>
+    <div>
+    <textarea  class="input" rows="4" name="subject" placeholder="write something"></textarea>
+    </div>
+    <div><button type="submit" class="submit">
+         SEND
+    </button></div>
+</form>
+</section>
+
+
+    
+            </div>
+           </div>
+        </div>
+        
+<!----<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>-->
+     
+</body>
+</html>
